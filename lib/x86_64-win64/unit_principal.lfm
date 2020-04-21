@@ -1,0 +1,83 @@
+object Form2: TForm2
+  Left = 271
+  Height = 342
+  Top = 196
+  Width = 670
+  Caption = 'Form2'
+  ClientHeight = 322
+  ClientWidth = 670
+  Menu = MainMenu1
+  LCLVersion = '2.0.8.0'
+  object Button1: TButton
+    Left = 24
+    Height = 48
+    Top = 32
+    Width = 99
+    Caption = 'CARGAR'
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 246
+    Height = 23
+    Top = 49
+    Width = 274
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 248
+    Height = 23
+    Top = 88
+    Width = 272
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 24
+    Height = 48
+    Top = 88
+    Width = 99
+    Caption = 'DESCARGAR'
+    TabOrder = 3
+  end
+  object Button3: TButton
+    Left = 24
+    Height = 48
+    Top = 144
+    Width = 99
+    Caption = 'LIMPIAR'
+    TabOrder = 4
+  end
+  object Button4: TButton
+    Left = 24
+    Height = 48
+    Top = 200
+    Width = 99
+    Caption = 'SALIR'
+    TabOrder = 5
+  end
+  object Edit3: TEdit
+    Left = 246
+    Height = 23
+    Top = 160
+    Width = 274
+    TabOrder = 6
+  end
+  object MainMenu1: TMainMenu
+    left = 24
+    top = 264
+    object MenuItem1: TMenuItem
+      Caption = 'INICIO'
+      object MenuItem2: TMenuItem
+        Caption = 'CARGAR'
+      end
+      object MenuItem3: TMenuItem
+        Caption = 'DESCARGAR'
+      end
+      object MenuItem4: TMenuItem
+        Caption = 'LIMPIAR'
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'SALIR'
+      end
+    end
+  end
+end

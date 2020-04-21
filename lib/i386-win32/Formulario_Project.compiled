@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.4\bin\i386-win32\fpc.exe" Date="1317892300"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq &quot;-FiD:\UAGRM FICCT\2 - PROGRAMACION I\PROGRAMACION EVANZ\PRACTICOS  DE EVANZ 2019\Programacion_I\lib\i386-win32&quot; -FuC:\lazarus\lcl\units\i386-win32\win32 -FuC:\lazarus\lcl\units\i386-win32 -FuC:\lazarus\components\lazutils\lib\i386-win32 -FuC:\lazarus\packager\units\i386-win32 &quot;-FuD:\UAGRM FICCT\2 - PROGRAMACION I\PROGRAMACION EVANZ\PRACTICOS  DE EVANZ 2019\Programacion_I\&quot; &quot;-FUD:\UAGRM FICCT\2 - PROGRAMACION I\PROGRAMACION EVANZ\PRACTICOS  DE EVANZ 2019\Programacion_I\lib\i386-win32\&quot; &quot;-FED:\UAGRM FICCT\2 - PROGRAMACION I\PROGRAMACION EVANZ\PRACTICOS  DE EVANZ 2019\Programacion_I\&quot; &quot;-oD:\UAGRM FICCT\2 - PROGRAMACION I\PROGRAMACION EVANZ\PRACTICOS  DE EVANZ 2019\Programacion_I\Formulario_Project.exe&quot; -dLCL -dLCLwin32 Formulario_Project.lpr"/>
+</CONFIG>
