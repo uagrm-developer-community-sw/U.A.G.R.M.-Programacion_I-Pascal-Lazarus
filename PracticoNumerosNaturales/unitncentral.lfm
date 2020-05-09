@@ -1,13 +1,14 @@
 object Form1: TForm1
-  Left = 256
+  Left = -883
   Height = 495
-  Top = 207
+  Top = 53
   Width = 721
   Caption = 'DEVELOPER'
   ClientHeight = 475
   ClientWidth = 721
   Color = clGray
   Menu = MainMNN
+  OnCreate = FormCreate
   LCLVersion = '2.0.8.0'
   object PanelNN: TPanel
     Left = 8
@@ -16,14 +17,14 @@ object Form1: TForm1
     Width = 672
     ClientHeight = 320
     ClientWidth = 672
-    Color = clSkyBlue
+    Color = 16748834
     ParentColor = False
     TabOrder = 0
     object Edit1NN: TEdit
-      Left = 256
+      Left = 255
       Height = 55
-      Top = 32
-      Width = 377
+      Top = 24
+      Width = 369
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -35
@@ -40,6 +41,7 @@ object Form1: TForm1
       Top = 24
       Width = 131
       Caption = 'CARGAR'
+      OnClick = BtnCargarClick
       TabOrder = 1
     end
     object BtnDescargar: TButton
@@ -48,6 +50,7 @@ object Form1: TForm1
       Top = 96
       Width = 131
       Caption = 'DESCARGAR'
+      OnClick = BtnDescargarClick
       TabOrder = 2
     end
     object BtnLimpiar: TButton
@@ -56,6 +59,7 @@ object Form1: TForm1
       Top = 168
       Width = 131
       Caption = 'LIMPIAR'
+      OnClick = BtnLimpiarClick
       TabOrder = 3
     end
     object BtnSalir: TButton
@@ -64,6 +68,7 @@ object Form1: TForm1
       Top = 240
       Width = 131
       Caption = 'SALIR'
+      OnClick = BtnSalirClick
       TabOrder = 4
     end
     object Edit3NN: TEdit
@@ -99,9 +104,10 @@ object Form1: TForm1
   end
   object Edit2NN: TEdit
     Left = 264
-    Height = 55
-    Top = 224
+    Height = 47
+    Top = 216
     Width = 369
+    BorderStyle = bsNone
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -35
@@ -112,7 +118,7 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 1
   end
-  object Label1: TLabel
+  object LabelNN: TLabel
     Left = 136
     Height = 55
     Top = 24
@@ -4226,15 +4232,44 @@ object Form1: TForm1
       Caption = 'INICIO'
       object MenuCargar: TMenuItem
         Caption = 'CARGAR'
+        OnClick = MenuCargarClick
       end
       object MenuDescargar: TMenuItem
         Caption = 'DESCARGAR'
+        OnClick = MenuDescargarClick
       end
       object MenuLimpiar: TMenuItem
         Caption = 'LIMPIAR'
+        OnClick = MenuLimpiarClick
       end
-      object MenuItem2: TMenuItem
+      object MenuSalir: TMenuItem
         Caption = 'SALIR'
+        OnClick = MenuSalirClick
+      end
+    end
+    object MenuHerramientas: TMenuItem
+      Caption = 'HERRAMIENTAS'
+      object MenuMNPares: TMenuItem
+        Caption = 'Mostrar Numeros Pares'
+      end
+      object MenuMNIimpares: TMenuItem
+        Caption = 'Mostrar Numeros Impares'
+      end
+    end
+    object MenuPractico: TMenuItem
+      Caption = 'PRACTICO'
+      object MenuEjercicio1: TMenuItem
+        Caption = 'EJERICICIO 1'
+      end
+      object MenuEjercicio2: TMenuItem
+        Caption = 'EJERICICIO 2'
+      end
+      object MenuEjercicio3: TMenuItem
+        Caption = 'EJERICICIO 3'
+      end
+      object MenuEjercicio4: TMenuItem
+        Caption = 'EJERICICIO 4'
+        OnClick = MenuEjercicio4Click
       end
     end
   end
