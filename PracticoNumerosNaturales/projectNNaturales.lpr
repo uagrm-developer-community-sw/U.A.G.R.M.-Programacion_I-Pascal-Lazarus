@@ -1,4 +1,4 @@
-program Formulario_Project;
+program projectNNaturales;
 
 {$mode objfpc}{$H+}
 
@@ -7,8 +7,7 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, Formulario_Codigo_Principal, Practico_I, //unit_principal
-  { you can add units after this };
+  Forms, unitNCentral, unitClaseNNatural;
 
 {$R *.res}
 
@@ -17,7 +16,6 @@ begin
   Application.Scaled:=True;
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);
-  //Application.CreateForm(TForm2, Form2);
   Application.Run;
 end.
 

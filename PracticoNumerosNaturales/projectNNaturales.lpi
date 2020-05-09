@@ -6,7 +6,7 @@
     <General>
       <SessionStorage Value="InProjectDir"/>
       <MainUnit Value="0"/>
-      <Title Value="Formulario_Project"/>
+      <Title Value="projectNNaturales"/>
       <Scaled Value="True"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
@@ -31,41 +31,34 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="4">
+    <Units Count="3">
       <Unit0>
-        <Filename Value="Formulario_Project.lpr"/>
+        <Filename Value="projectNNaturales.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="formulario_codigo_principal.pas"/>
+        <Filename Value="unitncentral.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Formulario_Codigo_Principal"/>
+        <UnitName Value="unitNCentral"/>
       </Unit1>
       <Unit2>
-        <Filename Value="practico_i.pas"/>
+        <Filename Value="unitclasennatural.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="Practico_I"/>
+        <UnitName Value="unitClaseNNatural"/>
       </Unit2>
-      <Unit3>
-        <Filename Value="..\..\U.A.G.R.M.-Programacion_I-Pascal-Lazarus\unit_principal.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form2"/>
-        <ResourceBaseClass Value="Form"/>
-      </Unit3>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="Formulario_Project"/>
+      <Filename Value="projectNNaturales"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="..\..\U.A.G.R.M.-Programacion_I-Pascal-Lazarus"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
