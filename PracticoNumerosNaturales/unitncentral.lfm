@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 925
+  Left = -838
   Height = 495
-  Top = 261
+  Top = 289
   Width = 721
   Caption = 'DEVELOPER'
   ClientHeight = 475
@@ -4565,12 +4565,15 @@ object Form1: TForm1
       Caption = 'PRACTICO'
       object MenuEjercicio1: TMenuItem
         Caption = 'EJERICICIO 1'
+        OnClick = MenuEjercicio1Click
       end
       object MenuEjercicio2: TMenuItem
         Caption = 'EJERICICIO 2'
+        OnClick = MenuEjercicio2Click
       end
       object MenuEjercicio3: TMenuItem
         Caption = 'EJERICICIO 3'
+        OnClick = MenuEjercicio3Click
       end
       object MenuEjercicio4: TMenuItem
         Caption = 'EJERICICIO 4'
@@ -4578,9 +4581,11 @@ object Form1: TForm1
       end
       object MenuEjercicio5: TMenuItem
         Caption = 'EJERCICIO 5'
+        OnClick = MenuEjercicio5Click
       end
       object MenuEjercicio6: TMenuItem
         Caption = 'EJERCICIO 6'
+        OnClick = MenuEjercicio6Click
       end
       object MenuEjercicio7: TMenuItem
         Caption = 'EJERCICIO 7'
