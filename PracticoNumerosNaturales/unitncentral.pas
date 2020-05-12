@@ -32,6 +32,15 @@ type
     MenuEjercicio2: TMenuItem;
     MenuEjercicio3: TMenuItem;
     MenuEjercicio4: TMenuItem;
+    MenuEjercicio5: TMenuItem;
+    MenuEjercicio6: TMenuItem;
+    MenuEjercicio7: TMenuItem;
+    MenuEjercicio8: TMenuItem;
+    MenuEjercicio9: TMenuItem;
+    MenuEjercicio10: TMenuItem;
+    MenuEjercicio11: TMenuItem;
+    MenuEjercicio12: TMenuItem;
+    MenuEjercicio13: TMenuItem;
     MenuPractico: TMenuItem;
     MenuMNIimpares: TMenuItem;
     MenuMNPares: TMenuItem;

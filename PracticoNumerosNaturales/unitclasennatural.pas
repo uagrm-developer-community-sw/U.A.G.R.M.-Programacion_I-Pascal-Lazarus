@@ -31,9 +31,15 @@ type
           function Ejercicio3():Integer;
           function Ejercicio4():Integer;
           function Ejercicio5():Integer;
-          function Ejercicio6():Integer;
-          function Ejercicio7():Integer;
-          function Ejercicio8():Integer;
+          function Ejercicio6(m:Integer):Integer;
+          function Ejercicio7(m: Integer):Integer;
+          function Ejercicio8(m: Integer):Integer;
+          function Ejercicio9(m: Integer):Integer;
+          function Ejercicio10(m: Integer):Integer;
+          function Ejercicio11():Integer;
+          function Ejercicio12():Integer;
+          function Ejercicio13(c2,c3: Integer):Integer;
+
 end;
 
 implementation
@@ -115,10 +121,7 @@ begin
      end;
    valor:=f;
 end;
-
-
-
-//***************************//
+//***************************************************************************//
 // PRACTICOS NUMEROS NATURALES
 //1. Haga un programa que dada una constante natural k, imprima los primeros k naturales.
 function natural.Ejercicio1(): Integer;
@@ -183,7 +186,7 @@ begin
   end;
 end;
 // 6. Haga un programa que acepte como entrada dos números NATURALES ( n y m ) y devuelva como resultado el producto de n x m, pero simule la operación empleando la suma y no el producto.
-function natural.Ejercicio6(): Integer;
+function natural.Ejercicio6(m:Integer): Integer;
 var n,f,c:Integer;
 begin
   n:=valor;
@@ -197,7 +200,7 @@ begin
   valor:=f;
 end;
 // 7. Haga un programa que acepte como entrada dos números NATURALES ( n y m ) y devuelva como resultado el cociente de n / m, pero simule la operación empleando la resta y no la división.
-function natural.Ejercicio7(): Integer;
+function natural.Ejercicio7(m: Integer): Integer;
 var n,c:Integer;
 begin
   n:=valor;
@@ -210,10 +213,44 @@ begin
   valor:=c;
 end;
 // 8. Haga un programa que acepte como entrada dos números ENTEROS ( n y m ) y devuelva como resultado el producto de n x m, pero simule la operación empleando la suma y no el producto. ¡ CON SIGNO !
-function natural.Ejercicio8(): Integer;
+function natural.Ejercicio8(m: Integer): Integer;
 begin
 
 end;
+//9. Haga un programa que acepte como entrada dos números ENTEROS ( n y m ) y devuelva como resultado el cociente de n / m, pero simule la operación empleando la resta y no la división. ¡ CON SIGNO !
+function natural.Ejercicio9(m: Integer): Integer;
+begin
+
+end;
+// 10. Haga un programa que acepte como entrada dos números NATURALES ( n y m ) y devuelva como resultado n m empleando la multiplicación.
+function natural.Ejercicio10(m: Integer): Integer;
+begin
+
+end;
+// 11. Haga un programa que acepte como entrada un número natural y devuelva como resultado n m empleando la suma. ¿Puede emplear algo de lo ya hecho?
+function natural.Ejercicio11(): Integer;
+begin
+
+end;
+// 12. Haga un programa que acepte como entrada dos números NATURALES ( n y b, con 2 < b <9 ) y convierta el número n al correspondiente número en base b. Recuerde que un número puede representarse con el siguiente polinomio:
+
+//n
+
+//S di ´ b
+
+//i-1 donde di es el i-ésimo dígito del número y b es la base.
+
+//i =1
+function natural.Ejercicio12(): Integer;
+begin
+
+end;
+//13. Haga un programa que acepte como entrada tres caracteres, que deben ser algunos de los dígitos del cero al nueve, y los convierta en el correspondiente número de tres dígitos y lo imprima. ( Ejemplo: sean los caracteres 3, 7, 5; deben ser convertidos en el número 375 ).
+function natural.Ejercicio13(c2, c3: Integer): Integer;
+begin
+
+end;
+
 
 end.
 

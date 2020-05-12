@@ -4,7 +4,7 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="6">
+    <Units Count="7">
       <Unit0>
         <Filename Value="projectNNaturales.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -12,7 +12,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="85"/>
+        <UsageCount Value="87"/>
       </Unit0>
       <Unit1>
         <Filename Value="unitncentral.pas"/>
@@ -21,9 +21,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="unitNCentral"/>
-        <TopLine Value="102"/>
-        <CursorPos X="18" Y="127"/>
-        <UsageCount Value="85"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="111"/>
+        <CursorPos X="18" Y="136"/>
+        <UsageCount Value="87"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -31,11 +32,9 @@
         <Filename Value="unitclasennatural.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="unitClaseNNatural"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="191"/>
-        <CursorPos X="200" Y="212"/>
-        <UsageCount Value="85"/>
+        <CursorPos X="277" Y="248"/>
+        <UsageCount Value="87"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -59,8 +58,16 @@
         <CursorPos Y="2645"/>
         <UsageCount Value="5"/>
       </Unit5>
+      <Unit6>
+        <Filename Value="..\README.md"/>
+        <EditorIndex Value="2"/>
+        <CursorPos Y="6"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit6>
     </Units>
-    <JumpHistory Count="4" HistoryIndex="3">
+    <JumpHistory Count="15" HistoryIndex="14">
       <Position1>
         <Filename Value="unitclasennatural.pas"/>
         <Caret Line="33" Column="41" TopLine="13"/>
@@ -77,6 +84,50 @@
         <Filename Value="unitclasennatural.pas"/>
         <Caret Line="36" Column="41" TopLine="11"/>
       </Position4>
+      <Position5>
+        <Filename Value="..\README.md"/>
+        <Caret Line="5" Column="33"/>
+      </Position5>
+      <Position6>
+        <Filename Value="unitclasennatural.pas"/>
+        <Caret Line="41" Column="56" TopLine="24"/>
+      </Position6>
+      <Position7>
+        <Filename Value="unitncentral.pas"/>
+        <Caret Line="127" Column="18" TopLine="102"/>
+      </Position7>
+      <Position8>
+        <Filename Value="unitncentral.pas"/>
+        <Caret Line="128" Column="18" TopLine="103"/>
+      </Position8>
+      <Position9>
+        <Filename Value="unitncentral.pas"/>
+        <Caret Line="129" Column="18" TopLine="104"/>
+      </Position9>
+      <Position10>
+        <Filename Value="unitncentral.pas"/>
+        <Caret Line="130" Column="18" TopLine="105"/>
+      </Position10>
+      <Position11>
+        <Filename Value="unitncentral.pas"/>
+        <Caret Line="131" Column="18" TopLine="106"/>
+      </Position11>
+      <Position12>
+        <Filename Value="unitncentral.pas"/>
+        <Caret Line="132" Column="18" TopLine="107"/>
+      </Position12>
+      <Position13>
+        <Filename Value="unitncentral.pas"/>
+        <Caret Line="133" Column="18" TopLine="108"/>
+      </Position13>
+      <Position14>
+        <Filename Value="unitncentral.pas"/>
+        <Caret Line="134" Column="18" TopLine="109"/>
+      </Position14>
+      <Position15>
+        <Filename Value="unitncentral.pas"/>
+        <Caret Line="135" Column="18" TopLine="110"/>
+      </Position15>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

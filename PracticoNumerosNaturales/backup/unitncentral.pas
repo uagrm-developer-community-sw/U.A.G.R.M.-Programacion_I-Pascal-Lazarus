@@ -124,7 +124,7 @@ end;
 //4. Haga un programa que acepte como entrada un número natural ( n ), e imprima las n primeras letras del alfabeto (1 <= n <=  26). Existe en
 procedure TForm1.MenuEjercicio4Click(Sender: TObject);
 begin
-  Edit4NN.Text:=n.Ejercicio4();
+  n.Ejercicio4();
 end;
 end.
 

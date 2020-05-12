@@ -31,8 +31,9 @@ type
           function Ejercicio3():Integer;
           function Ejercicio4():Integer;
           function Ejercicio5():Integer;
-          function Ejercicio6():Integer;
-          function Ejercicio7():Integer;
+          function Ejercicio6(m:Integer):Integer;
+          function Ejercicio7(m: Integer):Integer;
+          function Ejercicio8(m: Integer):Integer;
 end;
 
 implementation
@@ -114,10 +115,7 @@ begin
      end;
    valor:=f;
 end;
-
-
-
-//***************************//
+//***************************************************************************//
 // PRACTICOS NUMEROS NATURALES
 //1. Haga un programa que dada una constante natural k, imprima los primeros k naturales.
 function natural.Ejercicio1(): Integer;
@@ -182,7 +180,7 @@ begin
   end;
 end;
 // 6. Haga un programa que acepte como entrada dos números NATURALES ( n y m ) y devuelva como resultado el producto de n x m, pero simule la operación empleando la suma y no el producto.
-function natural.Ejercicio6(): Integer;
+function natural.Ejercicio6(m:Integer): Integer;
 var n,f,c:Integer;
 begin
   n:=valor;
@@ -196,7 +194,7 @@ begin
   valor:=f;
 end;
 // 7. Haga un programa que acepte como entrada dos números NATURALES ( n y m ) y devuelva como resultado el cociente de n / m, pero simule la operación empleando la resta y no la división.
-function natural.Ejercicio7(): Integer;
+function natural.Ejercicio7(m: Integer): Integer;
 var n,c:Integer;
 begin
   n:=valor;
@@ -207,6 +205,11 @@ begin
     c:=c+1;
   end;
   valor:=c;
+end;
+// 8. Haga un programa que acepte como entrada dos números ENTEROS ( n y m ) y devuelva como resultado el producto de n x m, pero simule la operación empleando la suma y no el producto. ¡ CON SIGNO !
+function natural.Ejercicio8(m: Integer): Integer;
+begin
+
 end;
 
 end.

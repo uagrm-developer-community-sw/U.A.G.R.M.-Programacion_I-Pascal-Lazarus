@@ -1,8 +1,11 @@
 # U.A.G.R.M.-Programacion_I-Pascal-Lazarus
 U.A.G.R.M. | Materia: Programacion I | Lenguaje: Pascal | IDE: Lazarus 2.0.8
 
-
+# Repositorio:
 ![repository-open-graph-template UAGRM](https://user-images.githubusercontent.com/36086876/81514975-de2c9180-92ff-11ea-9ce3-dd08e0e2dfbe.png)
+
+# Imagen:
+![lazarus](https://user-images.githubusercontent.com/36086876/81739527-8447db00-9469-11ea-8b7e-bbec5ff64f72.png)
 
 . Realizar la Solución, para ello debe crear una clase llamada PracticoU1 y ahi definir como procesos(Funciones y Procedimientos) los ejercicios requeridos, para resolver pueden usar Pseudocódigo y pruebas de Escritorio.
 
