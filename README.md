@@ -1,13 +1,13 @@
-# U.A.G.R.M.-Programacion_I-Pascal-Lazarus
-U.A.G.R.M. | Materia: Programacion I | Lenguaje: Pascal | IDE: Lazarus 2.0.8
+# U.A.G.R.M.-REPOSITORIO_Practicos-DOCENTE_Ing_Evans-MATERIA_Programacion_I-IDE_Lazarus
+U.A.G.R.M. | Materia: Programacion I | Docente: Evans Balcazar Veizaga | Repositorio: Practicos | Lenguaje: Pascal "Formulario" | IDE: Lazarus 2.0.8
 
 # Repositorio:
 ![repository-open-graph-template UAGRM](https://user-images.githubusercontent.com/36086876/81514975-de2c9180-92ff-11ea-9ce3-dd08e0e2dfbe.png)
 
-# Imagen:
+# Formulario Numeros Naturales:
 ![lazarus](https://user-images.githubusercontent.com/36086876/81739527-8447db00-9469-11ea-8b7e-bbec5ff64f72.png)
 
-# DESCRIPCION:
+# Practico Numeros Naturales:
 . Realizar la Solución, para ello debe crear una clase llamada PracticoU1 y ahi definir como procesos(Funciones y Procedimientos) los ejercicios requeridos, para resolver pueden usar Pseudocódigo y pruebas de Escritorio.
 
 . Usaremos el Sistema Operativo Fedora Linux para desarrollar el lenguaje de programación Pascal (Obligatorio) y/o Java(Opcional), se recomienda el IDE Lazarus(Pascal) y/o Android Studio(Java).
@@ -75,6 +75,6 @@ U.A.G.R.M. | Materia: Programacion I | Lenguaje: Pascal | IDE: Lazarus 2.0.8
 
        C=3191224435
 
-# IDE:
+# IDE Lazarus:
 ID LAZARUS: https://www.lazarus-ide.org/
 

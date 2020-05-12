@@ -62,7 +62,8 @@
         <Filename Value="..\README.md"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <CursorPos X="3" Y="10"/>
+        <TopLine Value="52"/>
+        <CursorPos X="14" Y="78"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="None"/>

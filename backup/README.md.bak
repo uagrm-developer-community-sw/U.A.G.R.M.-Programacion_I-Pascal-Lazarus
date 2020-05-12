@@ -7,6 +7,7 @@ U.A.G.R.M. | Materia: Programacion I | Lenguaje: Pascal | IDE: Lazarus 2.0.8
 # Imagen:
 ![lazarus](https://user-images.githubusercontent.com/36086876/81739527-8447db00-9469-11ea-8b7e-bbec5ff64f72.png)
 
+# DESCRIPCION:
 . Realizar la Solución, para ello debe crear una clase llamada PracticoU1 y ahi definir como procesos(Funciones y Procedimientos) los ejercicios requeridos, para resolver pueden usar Pseudocódigo y pruebas de Escritorio.
 
 . Usaremos el Sistema Operativo Fedora Linux para desarrollar el lenguaje de programación Pascal (Obligatorio) y/o Java(Opcional), se recomienda el IDE Lazarus(Pascal) y/o Android Studio(Java).
