@@ -4,7 +4,7 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="6">
+    <Units Count="7">
       <Unit0>
         <Filename Value="projectNNaturales.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -12,7 +12,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="34"/>
+        <UsageCount Value="86"/>
       </Unit0>
       <Unit1>
         <Filename Value="unitncentral.pas"/>
@@ -23,7 +23,7 @@
         <UnitName Value="unitNCentral"/>
         <TopLine Value="102"/>
         <CursorPos X="18" Y="127"/>
-        <UsageCount Value="34"/>
+        <UsageCount Value="86"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -31,11 +31,10 @@
         <Filename Value="unitclasennatural.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="unitClaseNNatural"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="113"/>
-        <CursorPos X="10" Y="137"/>
-        <UsageCount Value="34"/>
+        <TopLine Value="191"/>
+        <CursorPos X="38" Y="206"/>
+        <UsageCount Value="86"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -43,24 +42,50 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="283"/>
         <CursorPos Y="298"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="5"/>
       </Unit3>
       <Unit4>
         <Filename Value="C:\lazarus\lcl\include\control.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1561"/>
         <CursorPos Y="1583"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="5"/>
       </Unit4>
       <Unit5>
         <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="2622"/>
         <CursorPos Y="2645"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="5"/>
       </Unit5>
+      <Unit6>
+        <Filename Value="..\README.md"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="33" Y="5"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit6>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="unitclasennatural.pas"/>
+        <Caret Line="33" Column="41" TopLine="13"/>
+      </Position1>
+      <Position2>
+        <Filename Value="unitclasennatural.pas"/>
+        <Caret Line="34" Column="41" TopLine="12"/>
+      </Position2>
+      <Position3>
+        <Filename Value="unitclasennatural.pas"/>
+        <Caret Line="35" Column="41" TopLine="21"/>
+      </Position3>
+      <Position4>
+        <Filename Value="unitclasennatural.pas"/>
+        <Caret Line="36" Column="41" TopLine="11"/>
+      </Position4>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="0" ActiveMode=""/>
