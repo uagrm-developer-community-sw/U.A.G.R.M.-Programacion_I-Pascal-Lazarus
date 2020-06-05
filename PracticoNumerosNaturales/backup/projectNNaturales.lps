@@ -32,8 +32,9 @@
         <Filename Value="unitclasennatural.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="unitClaseNNatural"/>
-        <TopLine Value="28"/>
-        <CursorPos Y="188"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="156"/>
+        <CursorPos X="5" Y="205"/>
         <UsageCount Value="87"/>
         <Loaded Value="True"/>
       </Unit2>
@@ -60,9 +61,9 @@
       </Unit5>
       <Unit6>
         <Filename Value="..\README.md"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <CursorPos X="3" Y="10"/>
+        <TopLine Value="52"/>
+        <CursorPos X="14" Y="78"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="None"/>

@@ -34,6 +34,12 @@ type
           function Ejercicio6(m:Integer):Integer;
           function Ejercicio7(m: Integer):Integer;
           function Ejercicio8(m: Integer):Integer;
+          function Ejercicio9(m: Integer):Integer;
+          function Ejercicio10(m: Integer):Integer;
+          function Ejercicio11():Integer;
+          function Ejercicio12():Integer;
+          function Ejercicio13(c2,c3: Integer):Integer;
+
 end;
 
 implementation
@@ -153,17 +159,49 @@ begin
 end;
 //4. Haga un programa que acepte como entrada un número natural ( n ), e imprima las n primeras letras del alfabeto (1 <= n <=  26). Existe en
 function natural.Ejercicio4(): Integer;
-var aux:Integer;
+var aux,c:Integer;
+  s,f,let: String;
 begin
   aux:=valor;
-  if (aux mod 2=0)then
+  c:=1;
+  s:='';
+  f:='';
+  while(c<=aux)do
   begin
-    mostrar_n_dig_par();
-  end
-  else
-  begin
-    mostrar_n_dig_impar();
+       Case(c)of
+         1:let:='a';
+         2:let:='b';
+         3:let:='c';
+         4:let:='d';
+         5:let:='e';
+         6:let:='f';
+         7:let:='g';
+         8:let:='h';
+         9:let:='i';
+         10:let:='j';
+         11:let:='k';
+         12:let:='l';
+         13:let:='m';
+         14:let:='n';
+         15:let:='ñ';
+         16:let:='o';
+         17:let:='p';
+         18:let:='q';
+         19:let:='r';
+         20:let:='s';
+         21:let:='t';
+         22:let:='u';
+         23:let:='v';
+         24:let:='w';
+         25:let:='x';
+         26:let:='y';
+         27:let:='z';
+       end;
+       s:=let;
+       c:=c+1;
+       f:=(f+s)+', ';
   end;
+  Result:=f;
 end;
 // 5. Haga un programa que acepte como entrada un número natural ( n ), si n es par imprima los n primeros pares sino los n primeros impares.
 function natural.Ejercicio5(): Integer;
@@ -211,6 +249,40 @@ function natural.Ejercicio8(m: Integer): Integer;
 begin
 
 end;
+//9. Haga un programa que acepte como entrada dos números ENTEROS ( n y m ) y devuelva como resultado el cociente de n / m, pero simule la operación empleando la resta y no la división. ¡ CON SIGNO !
+function natural.Ejercicio9(m: Integer): Integer;
+begin
+
+end;
+// 10. Haga un programa que acepte como entrada dos números NATURALES ( n y m ) y devuelva como resultado n m empleando la multiplicación.
+function natural.Ejercicio10(m: Integer): Integer;
+begin
+
+end;
+// 11. Haga un programa que acepte como entrada un número natural y devuelva como resultado n m empleando la suma. ¿Puede emplear algo de lo ya hecho?
+function natural.Ejercicio11(): Integer;
+begin
+
+end;
+// 12. Haga un programa que acepte como entrada dos números NATURALES ( n y b, con 2 < b <9 ) y convierta el número n al correspondiente número en base b. Recuerde que un número puede representarse con el siguiente polinomio:
+
+//n
+
+//S di ´ b
+
+//i-1 donde di es el i-ésimo dígito del número y b es la base.
+
+//i =1
+function natural.Ejercicio12(): Integer;
+begin
+
+end;
+//13. Haga un programa que acepte como entrada tres caracteres, que deben ser algunos de los dígitos del cero al nueve, y los convierta en el correspondiente número de tres dígitos y lo imprima. ( Ejemplo: sean los caracteres 3, 7, 5; deben ser convertidos en el número 375 ).
+function natural.Ejercicio13(c2, c3: Integer): Integer;
+begin
+
+end;
+
 
 end.
 

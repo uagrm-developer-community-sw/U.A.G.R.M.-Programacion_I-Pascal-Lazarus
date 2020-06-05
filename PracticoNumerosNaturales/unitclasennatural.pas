@@ -154,22 +154,63 @@ begin
 end;
 // 3. Haga un programa que acepte como entrada un número natural ( n ), y calcule la suma de los primeros n naturales.
 function natural.Ejercicio3(): Integer;
+var aux,c,f:Integer;
 begin
-
+    c:=1;
+    f:=0;
+    aux:=valor;
+    while(c<=aux)do
+    begin
+      f:=f+c;
+     c:=c+1;
+    end;
+    valor:=f;
 end;
 //4. Haga un programa que acepte como entrada un número natural ( n ), e imprima las n primeras letras del alfabeto (1 <= n <=  26). Existe en
 function natural.Ejercicio4(): Integer;
-var aux:Integer;
+var aux,c:Integer;
+  s,f,let: String;
 begin
   aux:=valor;
-  if (aux mod 2=0)then
+  c:=1;
+  s:='';
+  f:='';
+  while(c<=aux)do
   begin
-    mostrar_n_dig_par();
-  end
-  else
-  begin
-    mostrar_n_dig_impar();
+       Case(c)of
+         1:let:='a';
+         2:let:='b';
+         3:let:='c';
+         4:let:='d';
+         5:let:='e';
+         6:let:='f';
+         7:let:='g';
+         8:let:='h';
+         9:let:='i';
+         10:let:='j';
+         11:let:='k';
+         12:let:='l';
+         13:let:='m';
+         14:let:='n';
+         15:let:='ñ';
+         16:let:='o';
+         17:let:='p';
+         18:let:='q';
+         19:let:='r';
+         20:let:='s';
+         21:let:='t';
+         22:let:='u';
+         23:let:='v';
+         24:let:='w';
+         25:let:='x';
+         26:let:='y';
+         27:let:='z';
+       end;
+       s:=let;
+       c:=c+1;
+       f:=(f+s)+', ';
   end;
+  Result:=f;
 end;
 // 5. Haga un programa que acepte como entrada un número natural ( n ), si n es par imprima los n primeros pares sino los n primeros impares.
 function natural.Ejercicio5(): Integer;
